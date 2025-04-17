@@ -198,7 +198,67 @@ plt.savefig('outputs/figures/correlation_heatmap.png', dpi=300)
 plt.show()
 ```
 
-![Correlation Heatmap](data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 500'%3E%3Crect width='600' height='500' fill='white'/%3E%3Cg transform='translate(80, 60)'%3E%3C!-- Title --%3E%3Ctext x='200' y='-30' font-family='Arial' font-size='16' text-anchor='middle' font-weight='bold'%3ECorrelation Matrix Heatmap%3C/text%3E%3C!-- Heatmap cells --%3E%3Crect x='0' y='0' width='100' height='100' fill='#3783b7' stroke='white' stroke-width='1'/%3E%3Ctext x='50' y='50' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle' fill='white'%3E1.00%3C/text%3E%3Crect x='100' y='0' width='100' height='100' fill='#e3e9fc' stroke='white' stroke-width='1'/%3E%3Ctext x='150' y='50' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E0.06%3C/text%3E%3Crect x='200' y='0' width='100' height='100' fill='#fbd0d1' stroke='white' stroke-width='1'/%3E%3Ctext x='250' y='50' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E-0.12%3C/text%3E%3Crect x='300' y='0' width='100' height='100' fill='#f3dbdc' stroke='white' stroke-width='1'/%3E%3Ctext x='350' y='50' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E-0.08%3C/text%3E%3Crect x='0' y='100' width='100' height='100' fill='#e3e9fc' stroke='white' stroke-width='1'/%3E%3Ctext x='50' y='150' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E0.06%3C/text%3E%3Crect x='100' y='100' width='100' height='100' fill='#3783b7' stroke='white' stroke-width='1'/%3E%3Ctext x='150' y='150' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle' fill='white'%3E1.00%3C/text%3E%3Crect x='200' y='100' width='100' height='100' fill='#dbf0fb' stroke='white' stroke-width='1'/%3E%3Ctext x='250' y='150' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E0.09%3C/text%3E%3Crect x='300' y='100' width='100' height='100' fill='#e9e6fa' stroke='white' stroke-width='1'/%3E%3Ctext x='350' y='150' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E0.03%3C/text%3E%3Crect x='0' y='200' width='100' height='100' fill='#fbd0d1' stroke='white' stroke-width='1'/%3E%3Ctext x='50' y='250' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E-0.12%3C/text%3E%3Crect x='100' y='200' width='100' height='100' fill='#dbf0fb' stroke='white' stroke-width='1'/%3E%3Ctext x='150' y='250' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E0.09%3C/text%3E%3Crect x='200' y='200' width='100' height='100' fill='#3783b7' stroke='white' stroke-width='1'/%3E%3Ctext x='250' y='250' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle' fill='white'%3E1.00%3C/text%3E%3Crect x='300' y='200' width='100' height='100' fill='#f8d6d7' stroke='white' stroke-width='1'/%3E%3Ctext x='350' y='250' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E-0.10%3C/text%3E%3Crect x='0' y='300' width='100' height='100' fill='#f3dbdc' stroke='white' stroke-width='1'/%3E%3Ctext x='50' y='350' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E-0.08%3C/text%3E%3Crect x='100' y='300' width='100' height='100' fill='#e9e6fa' stroke='white' stroke-width='1'/%3E%3Ctext x='150' y='350' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E0.03%3C/text%3E%3Crect x='200' y='300' width='100' height='100' fill='#f8d6d7' stroke='white' stroke-width='1'/%3E%3Ctext x='250' y='350' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle'%3E-0.10%3C/text%3E%3Crect x='300' y='300' width='100' height='100' fill='#3783b7' stroke='white' stroke-width='1'/%3E%3Ctext x='350' y='350' font-family='Arial' font-size='12' text-anchor='middle' dominant-baseline='middle' fill='white'%3E1.00%3C/text%3E%3C!-- Axis labels --%3E%3Ctext x='50' y='420' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature1%3C/text%3E%3Ctext x='150' y='420' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature2%3C/text%3E%3Ctext x='250' y='420' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature3%3C/text%3E%3Ctext x='350' y='420' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature4%3C/text%3E%3Ctext transform='rotate(-90, -20, 50)' x='-20' y='50' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature1%3C/text%3E%3Ctext transform='rotate(-90, -20, 150)' x='-20' y='150' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature2%3C/text%3E%3Ctext transform='rotate(-90, -20, 250)' x='-20' y='250' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature3%3C/text%3E%3Ctext transform='rotate(-90, -20, 350)' x='-20' y='350' font-family='Arial' font-size='12' text-anchor='middle'%3Efeature4%3C/text%3E%3C!-- Color bar --%3E%3Crect x='430' y='50' width='20' height='300' fill='url(%23gradient)'/%3E%3Ctext x='460' y='50' font-family='Arial' font-size='10' text-anchor='start'%3E1.0%3C/text%3E%3Ctext x='460' y='200' font-family='Arial' font-size='10' text-anchor='start'%3E0.0%3C/text%3E%3Ctext x='460' y='350' font-family='Arial' font-size='10' text-anchor='start'%3E-1.0%3C/text%3E%3Cdefs%3E%3ClinearGradient id='gradient' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%233783b7'/%3E%3Cstop offset='0.5' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23ca4b56'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/g%3E%3C/svg%3E)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <rect width="600" height="500" fill="white"/>
+  <g transform="translate(80, 60)">
+    <!-- Title -->
+    <text x="200" y="-30" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Correlation Matrix Heatmap</text>
+    <!-- Heatmap cells -->
+    <rect x="0" y="0" width="100" height="100" fill="#3783b7" stroke="white" stroke-width="1"/>
+    <text x="50" y="50" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">1.00</text>
+    <rect x="100" y="0" width="100" height="100" fill="#e3e9fc" stroke="white" stroke-width="1"/>
+    <text x="150" y="50" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">0.06</text>
+    <rect x="200" y="0" width="100" height="100" fill="#fbd0d1" stroke="white" stroke-width="1"/>
+    <text x="250" y="50" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">-0.12</text>
+    <rect x="300" y="0" width="100" height="100" fill="#f3dbdc" stroke="white" stroke-width="1"/>
+    <text x="350" y="50" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">-0.08</text>
+    <rect x="0" y="100" width="100" height="100" fill="#e3e9fc" stroke="white" stroke-width="1"/>
+    <text x="50" y="150" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">0.06</text>
+    <rect x="100" y="100" width="100" height="100" fill="#3783b7" stroke="white" stroke-width="1"/>
+    <text x="150" y="150" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">1.00</text>
+    <rect x="200" y="100" width="100" height="100" fill="#dbf0fb" stroke="white" stroke-width="1"/>
+    <text x="250" y="150" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">0.09</text>
+    <rect x="300" y="100" width="100" height="100" fill="#e9e6fa" stroke="white" stroke-width="1"/>
+    <text x="350" y="150" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">0.03</text>
+    <rect x="0" y="200" width="100" height="100" fill="#fbd0d1" stroke="white" stroke-width="1"/>
+    <text x="50" y="250" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">-0.12</text>
+    <rect x="100" y="200" width="100" height="100" fill="#dbf0fb" stroke="white" stroke-width="1"/>
+    <text x="150" y="250" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">0.09</text>
+    <rect x="200" y="200" width="100" height="100" fill="#3783b7" stroke="white" stroke-width="1"/>
+    <text x="250" y="250" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">1.00</text>
+    <rect x="300" y="200" width="100" height="100" fill="#f8d6d7" stroke="white" stroke-width="1"/>
+    <text x="350" y="250" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">-0.10</text>
+    <rect x="0" y="300" width="100" height="100" fill="#f3dbdc" stroke="white" stroke-width="1"/>
+    <text x="50" y="350" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">-0.08</text>
+    <rect x="100" y="300" width="100" height="100" fill="#e9e6fa" stroke="white" stroke-width="1"/>
+    <text x="150" y="350" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">0.03</text>
+    <rect x="200" y="300" width="100" height="100" fill="#f8d6d7" stroke="white" stroke-width="1"/>
+    <text x="250" y="350" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle">-0.10</text>
+    <rect x="300" y="300" width="100" height="100" fill="#3783b7" stroke="white" stroke-width="1"/>
+    <text x="350" y="350" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="white">1.00</text>
+    <!-- Axis labels -->
+    <text x="50" y="420" font-family="Arial" font-size="12" text-anchor="middle">feature1</text>
+    <text x="150" y="420" font-family="Arial" font-size="12" text-anchor="middle">feature2</text>
+    <text x="250" y="420" font-family="Arial" font-size="12" text-anchor="middle">feature3</text>
+    <text x="350" y="420" font-family="Arial" font-size="12" text-anchor="middle">feature4</text>
+    <text transform="rotate(-90, -20, 50)" x="-20" y="50" font-family="Arial" font-size="12" text-anchor="middle">feature1</text>
+    <text transform="rotate(-90, -20, 150)" x="-20" y="150" font-family="Arial" font-size="12" text-anchor="middle">feature2</text>
+    <text transform="rotate(-90, -20, 250)" x="-20" y="250" font-family="Arial" font-size="12" text-anchor="middle">feature3</text>
+    <text transform="rotate(-90, -20, 350)" x="-20" y="350" font-family="Arial" font-size="12" text-anchor="middle">feature4</text>
+    <!-- Color bar -->
+    <rect x="430" y="50" width="20" height="300" fill="url(#gradient)"/>
+    <text x="460" y="50" font-family="Arial" font-size="10" text-anchor="start">1.0</text>
+    <text x="460" y="200" font-family="Arial" font-size="10" text-anchor="start">0.0</text>
+    <text x="460" y="350" font-family="Arial" font-size="10" text-anchor="start">-1.0</text>
+    <defs>
+      <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3783b7"/>
+        <stop offset="0.5" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#ca4b56"/>
+      </linearGradient>
+    </defs>
+  </g>
+</svg>
 
 ## 📊 Advanced Visualization Example: Pair Plot
 
