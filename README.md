@@ -139,7 +139,60 @@ plt.savefig('outputs/figures/scatter_regression.png', dpi=300)
 plt.show()
 ```
 
-![Scatter Plot with Regression Line](data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='white'/%3E%3Cg transform='translate(60, 20)'%3E%3C!-- Title --%3E%3Ctext x='240' y='20' font-family='Arial' font-size='16' text-anchor='middle' font-weight='bold'%3EScatter Plot with Regression Line%3C/text%3E%3C!-- Axes --%3E%3Cline x1='0' y1='320' x2='480' y2='320' stroke='black' stroke-width='2'/%3E%3Cline x1='0' y1='0' x2='0' y2='320' stroke='black' stroke-width='2'/%3E%3C!-- X-axis labels --%3E%3Ctext x='0' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E-3%3C/text%3E%3Ctext x='120' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E-2%3C/text%3E%3Ctext x='240' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E-1%3C/text%3E%3Ctext x='360' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E0%3C/text%3E%3Ctext x='480' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E1%3C/text%3E%3Ctext x='240' y='360' font-family='Arial' font-size='14' text-anchor='middle'%3EX Variable%3C/text%3E%3C!-- Y-axis labels --%3E%3Ctext x='-10' y='320' font-family='Arial' font-size='12' text-anchor='end'%3E-6%3C/text%3E%3Ctext x='-10' y='240' font-family='Arial' font-size='12' text-anchor='end'%3E-4%3C/text%3E%3Ctext x='-10' y='160' font-family='Arial' font-size='12' text-anchor='end'%3E-2%3C/text%3E%3Ctext x='-10' y='80' font-family='Arial' font-size='12' text-anchor='end'%3E0%3C/text%3E%3Ctext x='-10' y='0' font-family='Arial' font-size='12' text-anchor='end'%3E2%3C/text%3E%3Ctext transform='rotate(-90, -30, 160)' x='-30' y='160' font-family='Arial' font-size='14' text-anchor='middle'%3EY Variable%3C/text%3E%3C!-- Grid lines --%3E%3Cline x1='0' y1='240' x2='480' y2='240' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='0' y1='160' x2='480' y2='160' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='0' y1='80' x2='480' y2='80' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='120' y1='0' x2='120' y2='320' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='240' y1='0' x2='240' y2='320' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='360' y1='0' x2='360' y2='320' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3C!-- Regression line --%3E%3Cline x1='0' y1='240' x2='480' y2='80' stroke='red' stroke-width='2'/%3E%3C!-- Data points --%3E%3Ccircle cx='60' cy='260' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='100' cy='245' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='140' cy='230' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='170' cy='210' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='190' cy='200' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='220' cy='190' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='240' cy='180' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='260' cy='160' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='280' cy='150' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='290' cy='145' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='310' cy='140' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='320' cy='130' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='340' cy='125' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='350' cy='115' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='360' cy='110' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='380' cy='100' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='390' cy='90' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='400' cy='80' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='420' cy='70' r='4' fill='blue' opacity='0.7'/%3E%3Ccircle cx='440' cy='60' r='4' fill='blue' opacity='0.7'/%3E%3C/g%3E%3C/svg%3E)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="white"/>
+  <g transform="translate(60, 20)">
+    <!-- Title -->
+    <text x="240" y="20" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Scatter Plot with Regression Line</text>
+    <!-- Axes -->
+    <line x1="0" y1="320" x2="480" y2="320" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="320" stroke="black" stroke-width="2"/>
+    <!-- X-axis labels -->
+    <text x="0" y="340" font-family="Arial" font-size="12" text-anchor="middle">-3</text>
+    <text x="120" y="340" font-family="Arial" font-size="12" text-anchor="middle">-2</text>
+    <text x="240" y="340" font-family="Arial" font-size="12" text-anchor="middle">-1</text>
+    <text x="360" y="340" font-family="Arial" font-size="12" text-anchor="middle">0</text>
+    <text x="480" y="340" font-family="Arial" font-size="12" text-anchor="middle">1</text>
+    <text x="240" y="360" font-family="Arial" font-size="14" text-anchor="middle">X Variable</text>
+    <!-- Y-axis labels -->
+    <text x="-10" y="320" font-family="Arial" font-size="12" text-anchor="end">-6</text>
+    <text x="-10" y="240" font-family="Arial" font-size="12" text-anchor="end">-4</text>
+    <text x="-10" y="160" font-family="Arial" font-size="12" text-anchor="end">-2</text>
+    <text x="-10" y="80" font-family="Arial" font-size="12" text-anchor="end">0</text>
+    <text x="-10" y="0" font-family="Arial" font-size="12" text-anchor="end">2</text>
+    <text transform="rotate(-90, -30, 160)" x="-30" y="160" font-family="Arial" font-size="14" text-anchor="middle">Y Variable</text>
+    <!-- Grid lines -->
+    <line x1="0" y1="240" x2="480" y2="240" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="0" y1="160" x2="480" y2="160" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="0" y1="80" x2="480" y2="80" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="120" y1="0" x2="120" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="240" y1="0" x2="240" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="360" y1="0" x2="360" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <!-- Regression line -->
+    <line x1="0" y1="240" x2="480" y2="80" stroke="red" stroke-width="2"/>
+    <!-- Data points -->
+    <circle cx="60" cy="260" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="100" cy="245" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="140" cy="230" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="170" cy="210" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="190" cy="200" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="220" cy="190" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="240" cy="180" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="260" cy="160" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="280" cy="150" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="290" cy="145" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="310" cy="140" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="320" cy="130" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="340" cy="125" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="350" cy="115" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="360" cy="110" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="380" cy="100" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="390" cy="90" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="400" cy="80" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="420" cy="70" r="4" fill="blue" opacity="0.7"/>
+    <circle cx="440" cy="60" r="4" fill="blue" opacity="0.7"/>
+  </g>
+</svg>
 
 ### Histogram and KDE Plot
 
