@@ -163,7 +163,60 @@ plt.savefig('outputs/figures/histogram_kde.png', dpi=300)
 plt.show()
 ```
 
-![Histogram with KDE](data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='white'/%3E%3Cg transform='translate(60, 20)'%3E%3C!-- Title --%3E%3Ctext x='240' y='20' font-family='Arial' font-size='16' text-anchor='middle' font-weight='bold'%3EHistogram with KDE%3C/text%3E%3C!-- Axes --%3E%3Cline x1='0' y1='320' x2='480' y2='320' stroke='black' stroke-width='2'/%3E%3Cline x1='0' y1='0' x2='0' y2='320' stroke='black' stroke-width='2'/%3E%3C!-- X-axis labels --%3E%3Ctext x='0' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E-6%3C/text%3E%3Ctext x='96' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E-4%3C/text%3E%3Ctext x='192' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E-2%3C/text%3E%3Ctext x='288' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E0%3C/text%3E%3Ctext x='384' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E2%3C/text%3E%3Ctext x='480' y='340' font-family='Arial' font-size='12' text-anchor='middle'%3E4%3C/text%3E%3Ctext x='240' y='360' font-family='Arial' font-size='14' text-anchor='middle'%3EValue%3C/text%3E%3C!-- Y-axis labels --%3E%3Ctext x='-10' y='320' font-family='Arial' font-size='12' text-anchor='end'%3E0%3C/text%3E%3Ctext x='-10' y='240' font-family='Arial' font-size='12' text-anchor='end'%3E20%3C/text%3E%3Ctext x='-10' y='160' font-family='Arial' font-size='12' text-anchor='end'%3E40%3C/text%3E%3Ctext x='-10' y='80' font-family='Arial' font-size='12' text-anchor='end'%3E60%3C/text%3E%3Ctext x='-10' y='0' font-family='Arial' font-size='12' text-anchor='end'%3E80%3C/text%3E%3Ctext transform='rotate(-90, -30, 160)' x='-30' y='160' font-family='Arial' font-size='14' text-anchor='middle'%3EFrequency%3C/text%3E%3C!-- Grid lines --%3E%3Cline x1='0' y1='240' x2='480' y2='240' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='0' y1='160' x2='480' y2='160' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='0' y1='80' x2='480' y2='80' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='96' y1='0' x2='96' y2='320' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='192' y1='0' x2='192' y2='320' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='288' y1='0' x2='288' y2='320' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3Cline x1='384' y1='0' x2='384' y2='320' stroke='gray' stroke-width='0.5' stroke-dasharray='5,5'/%3E%3C!-- Histogram bars --%3E%3Crect x='144' y='240' width='16' height='80' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='160' y='160' width='16' height='160' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='176' y='80' width='16' height='240' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='192' y='120' width='16' height='200' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='208' y='200' width='16' height='120' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='224' y='240' width='16' height='80' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='240' y='280' width='16' height='40' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='256' y='280' width='16' height='40' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='272' y='280' width='16' height='40' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='288' y='260' width='16' height='60' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='304' y='240' width='16' height='80' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='320' y='200' width='16' height='120' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='336' y='120' width='16' height='200' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='352' y='40' width='16' height='280' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='368' y='80' width='16' height='240' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='384' y='160' width='16' height='160' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='400' y='240' width='16' height='80' fill='skyblue' stroke='black' stroke-width='1'/%3E%3Crect x='416' y='280' width='16' height='40' fill='skyblue' stroke='black' stroke-width='1'/%3E%3C!-- KDE curve --%3E%3Cpath d='M0,320 C48,320 96,316 144,300 C168,290 192,240 216,170 C240,240 264,290 288,300 C336,316 384,320 480,320' fill='none' stroke='#ff7f0e' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E)
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="white"/>
+  <g transform="translate(60, 20)">
+    <!-- Title -->
+    <text x="240" y="20" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Histogram with KDE</text>
+    <!-- Axes -->
+    <line x1="0" y1="320" x2="480" y2="320" stroke="black" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="320" stroke="black" stroke-width="2"/>
+    <!-- X-axis labels -->
+    <text x="0" y="340" font-family="Arial" font-size="12" text-anchor="middle">-6</text>
+    <text x="96" y="340" font-family="Arial" font-size="12" text-anchor="middle">-4</text>
+    <text x="192" y="340" font-family="Arial" font-size="12" text-anchor="middle">-2</text>
+    <text x="288" y="340" font-family="Arial" font-size="12" text-anchor="middle">0</text>
+    <text x="384" y="340" font-family="Arial" font-size="12" text-anchor="middle">2</text>
+    <text x="480" y="340" font-family="Arial" font-size="12" text-anchor="middle">4</text>
+    <text x="240" y="360" font-family="Arial" font-size="14" text-anchor="middle">Value</text>
+    <!-- Y-axis labels -->
+    <text x="-10" y="320" font-family="Arial" font-size="12" text-anchor="end">0</text>
+    <text x="-10" y="240" font-family="Arial" font-size="12" text-anchor="end">20</text>
+    <text x="-10" y="160" font-family="Arial" font-size="12" text-anchor="end">40</text>
+    <text x="-10" y="80" font-family="Arial" font-size="12" text-anchor="end">60</text>
+    <text x="-10" y="0" font-family="Arial" font-size="12" text-anchor="end">80</text>
+    <text transform="rotate(-90, -30, 160)" x="-30" y="160" font-family="Arial" font-size="14" text-anchor="middle">Frequency</text>
+    <!-- Grid lines -->
+    <line x1="0" y1="240" x2="480" y2="240" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="0" y1="160" x2="480" y2="160" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="0" y1="80" x2="480" y2="80" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="96" y1="0" x2="96" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="192" y1="0" x2="192" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="288" y1="0" x2="288" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <line x1="384" y1="0" x2="384" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <!-- Histogram bars -->
+    <rect x="144" y="240" width="16" height="80" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="160" y="160" width="16" height="160" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="176" y="80" width="16" height="240" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="192" y="120" width="16" height="200" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="208" y="200" width="16" height="120" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="224" y="240" width="16" height="80" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="240" y="280" width="16" height="40" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="256" y="280" width="16" height="40" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="272" y="280" width="16" height="40" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="288" y="260" width="16" height="60" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="304" y="240" width="16" height="80" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="320" y="200" width="16" height="120" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="336" y="120" width="16" height="200" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="352" y="40" width="16" height="280" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="368" y="80" width="16" height="240" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="384" y="160" width="16" height="160" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="400" y="240" width="16" height="80" fill="skyblue" stroke="black" stroke-width="1"/>
+    <rect x="416" y="280" width="16" height="40" fill="skyblue" stroke="black" stroke-width="1"/>
+    <!-- KDE curve -->
+    <path d="M0,320 C48,320 96,316 144,300 C168,290 192,240 216,170 C240,240 264,290 288,300 C336,316 384,320 480,320" fill="none" stroke="#ff7f0e" stroke-width="2"/>
+  </g>
+</svg>
 
 ### Heatmap for Correlation Matrix
 
